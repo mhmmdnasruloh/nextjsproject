@@ -4,7 +4,15 @@ import { supabase } from "@/lib/supabaseClient";
 import Link from "next/link";
 
 export default function HomePage() {
-  const [projects, setProjects] = useState<any[]>([]);
+  interface Project {
+    id: number;
+    title: string;
+    description: string;
+    url: string;
+    created_at: string;
+  }
+
+  const [projects, setProjects] = useState<Project[]>([]);
   const [loading, setLoading] = useState(true);
 
   // Fetch project dari Supabase

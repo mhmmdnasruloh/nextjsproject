@@ -68,7 +68,7 @@ export default function ContactPage() {
                     <div className="w-24 h-1 bg-gradient-to-r from-emerald-400 to-cyan-400 mx-auto rounded-full mb-6"></div>
 
                     <p className="text-lg text-gray-300">
-                        I'd love to hear from you. Send me a message!
+                        I&apos;d love to hear from you. Send me a message!
                     </p>
                 </div>
 
