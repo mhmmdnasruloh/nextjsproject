@@ -212,7 +212,7 @@ export default function ContactPage() {
 
                 {/* Footer Message */}
                 <p className="text-center text-gray-400 mt-8">
-                    I'll get back to you as soon as possible 🚀
+                    I ll get back to you as soon as possible 🚀
                 </p>
 
                 {/* Bottom Gradient Line */}
