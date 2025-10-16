@@ -59,7 +59,7 @@ export default function HomePage() {
         <div className="relative z-10 space-y-6 animate-fade-in">
           <div className="inline-block">
             <h1 className="text-6xl md:text-7xl font-extrabold mb-4 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">
-              Hi, Im Arul 👋
+              <p>I&apos;m Arul, an web developer</p>
             </h1>
             <div className="h-1 w-full bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 rounded-full"></div>
           </div>
